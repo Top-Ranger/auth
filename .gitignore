@@ -1,0 +1,15 @@
+#Fuzzung files
+captcha/corpus/*
+captcha/crashers/*
+captcha/suppressions/*
+captcha/*-fuzz.zip
+data/corpus/*
+data/crashers/*
+data/suppressions/*
+data/*-fuzz.zip
+corpus/**
+!corpus/captcha.go
+!corpus/data.go
+
+#Binary
+auth
